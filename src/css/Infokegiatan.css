@@ -1,0 +1,17 @@
+
+.carousel {
+    position: relative;
+  }
+  
+
+.ft{
+    opacity: 70%;
+    /* height: 30vh;
+    width: 100vw;
+    object-fit: cover;
+    object-position: 25% 90%;  */
+}
+
+.ftt{
+    opacity: 40%;
+}

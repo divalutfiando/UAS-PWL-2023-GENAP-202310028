@@ -1,0 +1,96 @@
+/* Sidebars.css */
+
+
+.sideawal {
+  min-width: 240px;
+  max-width: 240px;
+  transition: min-width 0.3s ease-in-out, max-width 0.3s ease-in-out;
+}
+
+.sideawal.open {
+  min-width: 50px;
+  max-width: 50px;
+  overflow: hidden;
+}
+  
+
+  .bgside {
+    background-color: #74A3DE;
+    height: 100vh;
+  }
+  
+  .tatas {
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+    margin-left: -5px;
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+  .Libik {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .tmawal {
+    margin-left: 20px;
+    padding-top: 1.5rem;
+    list-style: none;
+    overflow-y: auto;
+    height: calc(100vh - 90px); /* Menyesuaikan tinggi sidebars dengan tinggi konten */
+  }
+  
+  .tisi {
+    padding-bottom: 0.5rem;
+  }
+  
+  .tmenu {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .tmenu:hover {
+    color: #f8f9fa;
+  }
+  
+  .main-content {
+    width: calc(100% - 240px);
+    margin-left: 240px;
+    background-color: white;
+    padding: 1rem;
+    transition: margin-left 0.3s ease-in-out;
+  }
+  
+  .main-content.open {
+    margin-left: 64px;
+  }
+  
+  @media (max-width: 576px) {
+    .sideawal {
+      width: 100%;
+    }
+  
+    .sideawal.open {
+      width: 100%;
+    }
+  
+    .tatas {
+      justify-content: center;
+    }
+  
+    .main-content {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .tmawal {
+      height: auto; /* Menghilangkan tinggi tetap pada sidebars */
+    }
+  }
+
+  .btnt{
+    background-color: rgb(1, 141, 255);
+  }

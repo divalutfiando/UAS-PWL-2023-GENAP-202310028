@@ -1,0 +1,19 @@
+.tentang-kami {
+    padding: 50px 0;
+  }
+  
+  .tentang-kami h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .tentang-kami p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .tentang-kami img {
+    max-width: 100%;
+  }
+  
