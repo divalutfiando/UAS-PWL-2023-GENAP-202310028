@@ -45,7 +45,7 @@ export default function DaftarKegiatan() {
             <div className="col-md-6 col-lg-4 mb-4" key={index}>
               <div className="card">
                 <img
-                  src={v.image}
+                  src={"https://mbkm.unila.ac.id/wp-content/uploads/2021/06/MBKM-Unila.jpg"}
                   className="card-img-top"
                   alt={v.judul}
                 />
